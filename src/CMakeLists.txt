@@ -1,9 +1,11 @@
 # This file was automatically generated for projects
 # without default 'CMakeLists.txt' file.
 
-FILE(GLOB_RECURSE app_sources ${CMAKE_SOURCE_DIR}/src/*.*)
+SET(APP_SOURCES 
+    main.c
+)
 
 idf_component_register(
-    SRCS ${app_sources}
+    SRCS ${APP_SOURCES}
     PRIV_REQUIRES esp_http_server nvs_flash
 )

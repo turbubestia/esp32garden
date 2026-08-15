@@ -79,3 +79,6 @@ sdkconfig
 sdkconfig.*
 !sdkconfig.defaults
 !sdkconfig.defaults.*
+
+# Visual Studio Code
+.vscode/

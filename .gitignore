@@ -67,3 +67,15 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# platform IO
+.pio/
+
+# PlatformIO managed dependencies
+managed_components/
+
+# ESP-IDF generated configuration (keep sdkconfig.defaults*)
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+!sdkconfig.defaults.*
